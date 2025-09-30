@@ -48,7 +48,7 @@ var vite_config_default = defineConfig({
     }
   },
   // GitHub Pages configuration - proper base path handling
-  base: process.env.VITE_BASE_PATH || "/"
+  base: process.env.BASE_PATH || "/"
 });
 
 // server/vite.ts
